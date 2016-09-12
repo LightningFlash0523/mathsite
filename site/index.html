@@ -12,9 +12,15 @@
 <body>
 <header id='header-nav'>
   <div class='container'>
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+    </button>
     <div id='collapsable-nav' class='collapse navbar-collapse'>
       <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li>
+            <li class='visible-xs active'>
               <a href="home.html">
                 <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
             </li>
@@ -29,7 +35,8 @@
       </ul><!-- #nav-list -->
 
     </div>
-  </div>
+
+  </div> <!--end container-->
   <hr>
 </header>
 
@@ -42,6 +49,44 @@ Are you ready to have your skills tested?
   <a href='#'>Login</a>
   <a href='#'>Signup</a>
 </div>
+<div class=description>
+These pages test your skills in mathematics. These can also help you prepare for an exam.
+</div>
+
+<div id=tiles>
+  <div class="col-md-6 col-sm-6 col-xs-12">
+    <a href='#'>
+      <div id='algebra-tile'>
+       Algebra   
+      </div>
+    </a>
+  </div>
+  <div class="col-md-6 col-sm-6 col-xs-12">
+    <a href='#'>
+      <div id='geometry-tile'>
+       Geometry 
+      </div>
+    </a>
+  </div>
+  <div class="col-md-6 col-sm-6 col-xs-12">
+    <a href='#'>
+      <div id='trigonometry-tile'>
+        Trigonometry
+      </div>
+    </a>
+  </div>  
+  <div class="col-md-6 col-sm-6 col-xs-12">
+    <a href='#'>
+      <div id='calculus-tile'>
+       Calculus
+      </div>
+    </a>
+  </div>
+</div>
+<footer>
+  <div class="googleads col-md-6 col-sm-6 col-xs-12">Google Ads</div>
+  <div class="googleads col-md-6 col-sm-6 col-xs-12">Google Ads</div>
+</footer>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
