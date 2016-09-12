@@ -49,7 +49,6 @@ h1{
 	font-size: 24px;
 	text-align: center;
 	padding-top: 20px;
-
 }
 
 div.button{
@@ -82,4 +81,43 @@ left: -5em;
 div.button a:nth-child(3){
 bottom: -3em;
 left: -5em;
+}
+@media (min-width: 382px) and (max-width: 522px){
+	div.button a:nth-child(1){
+	right: -3em;
+	}
+	div.button a:nth-child(2){
+	bottom: -3em;
+	left: -9em;
+	}
+	div.button a:nth-child(3){
+	bottom: -1.6em;
+	left: 3em;
+	}
+}
+@media (min-width: 346px) and (max-width: 381px){
+	div.button a:nth-child(1){
+	right: 0em;
+	}
+	div.button a:nth-child(2){
+	bottom: -1.6em;
+	left: 0em;
+	}
+	div.button a:nth-child(3){
+	bottom: -1.6em;
+	left: 0em;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 345px){
+	div.button a:nth-child(1){
+	right: 0em;
+	}
+	div.button a:nth-child(2){
+	bottom: -1.6em;
+	left: 0em;
+	}
+	div.button a:nth-child(3){
+	left: 0em;
+	}
 }
